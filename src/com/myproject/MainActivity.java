@@ -119,7 +119,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 	void login(){
 		try {
 			HttpClient httpClient = new DefaultHttpClient();
-			HttpPost httpPost = new HttpPost("http://psmovers.com.au/__c_heck_login.php");
+			HttpPost httpPost = new HttpPost("your url");
 				
 			String email_input = email.getText().toString();
 			String password_input = password.getText().toString();
